@@ -3,9 +3,9 @@
 * 表格布局：TabLayout
   	 tabrow:为表个的每一行
     	一个列或者行是否可以收缩帧布局：FrameLayout
-  	叠加效果
-  	前景：foreground
-  	前景的gravity：foregroundGravity
+    	叠加效果
+    	前景：foreground
+    	前景的gravity：foregroundGravity
 * 相对布局：
 * 线性布局：
 
@@ -29,42 +29,42 @@
 
 * AutoCompleteTextView:自动填充文本编辑框
   	completionHint:下拉菜单的标题
-  	completionThreshold:多少个字提示
-  	dropHeight:下拉的高度
-  	popupBackground:下拉背景
-  	设置Adapter,ArrayAdapter<String>
+    	completionThreshold:多少个字提示
+    	dropHeight:下拉的高度
+    	popupBackground:下拉背景
+    	设置Adapter,ArrayAdapter<String>
 
 * Spinner:下拉列表
   	prompt:提示
-  	entries:下拉列表的选项 <string-array name=""></string-array>
-  	设置BaseAdapter，可以自定义列表项getView()
+    	entries:下拉列表的选项 <string-array name=""></string-array>
+    	设置BaseAdapter，可以自定义列表项getView()
 
 * ProgressBar:
   	max; progress; drawable 在drawable文件中添加进度条的自定义文件<layer-list>background和progress</...>
-  	progressstyle
-  	setProgress();设置进度
-  	incrementProgressBy();设置进度的增减
+    	progressstyle
+    	setProgress();设置进度
+    	incrementProgressBy();设置进度的增减
 
 * SeekBar:
   	可拖动的进度条
-  	thumb设置拖动的图标
-  	其他与progress相同	
+    	thumb设置拖动的图标
+    	其他与progress相同	
 
 * RationBar：星级评分条
   	numStars:多少个星星
-  	rating:评分等级
-  	stepSize:改变的不伐
-  	isIndicator:是否允许用户改变
-  	其他与progress相同
+    	rating:评分等级
+    	stepSize:改变的不伐
+    	isIndicator:是否允许用户改变
+    	其他与progress相同
 
 * TabHost:标签窗口
   	newTabSpec(String tag);//
-  	addTab(TabHost.TabSpec tabSpec)//添加选项卡
-  	布件写tag
-  	Activity继承TABActivity	
-  	 final TabHost tabHost = getTabHost();
+    	addTab(TabHost.TabSpec tabSpec)//添加选项卡
+    	布件写tag
+    	Activity继承TABActivity	
+    	 final TabHost tabHost = getTabHost();
        LayoutInflater.from(this).inflate(R.layout.tabhost_activity, tabHost.getTabContentView(),true);
-  	 tabHost.addTab(tabHost.newTabSpec("tab1").setIndicator("已接电话").setContent(R.id.tab01));
+    	 tabHost.addTab(tabHost.newTabSpec("tab1").setIndicator("已接电话").setContent(R.id.tab01));
   DatePicker:
   	日期选择器
   	init(year,month,day,Listener(){})
@@ -79,36 +79,36 @@ expandListView:
 
 * GridView:
   	网格视图
-  	columnWidth:列宽
-  	gravity:对其方式
-  	numColumns：列数
-  	horizontalSpacing:水平间距
-  	vierticalSpaing:垂直间距
-  	strechMode:拉伸模式
-  	SimpleAdapter(context, )//
-  	gridview.setAdapter();//
+    	columnWidth:列宽
+    	gravity:对其方式
+    	numColumns：列数
+    	horizontalSpacing:水平间距
+    	vierticalSpaing:垂直间距
+    	strechMode:拉伸模式
+    	SimpleAdapter(context, )//
+    	gridview.setAdapter();//
 * Gallery：
   	画廊视图
-  	unselectAlpha:没有选中的透明度
-  	spacing:列表内的间距
-  	animationDuration:切换的动画持续时间
-  	setAdapter();
-  	setOnItemSelectdListener();
+    	unselectAlpha:没有选中的透明度
+    	spacing:列表内的间距
+    	animationDuration:切换的动画持续时间
+    	setAdapter();
+    	setOnItemSelectdListener();
 
 //弹窗类
 
 * AlertDialog:
   	Builder builder = AlertDialog.Builder();
-  	builder.setIcon();//
-  	builder.setTitle();
-  	builder.setMessage();
-  	builder.setNagtiveButton();
-  	builder.setPositiveButton();
-  	builder.setItems(int itemsId,Listener);
-  	//单选dialog
-  	builder.setSingleChoiceItems(Charsequence[] items,int checkeditem, Listener):
-  	//复选dialog
-  	builder.setMultiChoiceItems(charsequence[] items,boolean[] checkitems, Listener);
+    	builder.setIcon();//
+    	builder.setTitle();
+    	builder.setMessage();
+    	builder.setNagtiveButton();
+    	builder.setPositiveButton();
+    	builder.setItems(int itemsId,Listener);
+    	//单选dialog
+    	builder.setSingleChoiceItems(Charsequence[] items,int checkeditem, Listener):
+    	//复选dialog
+    	builder.setMultiChoiceItems(charsequence[] items,boolean[] checkitems, Listener);
 
 	builder.setAdapter(ListAdapter adapter, Listener);//自定以列表
 	builder.create().show();
@@ -283,15 +283,17 @@ android 资源字体，组件大小
 		  anim.setFillAfter(boolean);
 		  view.startAnimation(anim);
 第11章 音视频的播放
-	
-			
-			
-			
-			
-			
-			
-			
-			
-	
-	
-	
+
+#### 第13章 网络应用
+
+​			
+​			
+​			
+​			
+​			
+​			
+​			
+​			
+​	
+​	
+​	
