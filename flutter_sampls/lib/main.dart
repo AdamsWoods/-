@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_package_01/BottomNavigationWidget.dart';
 import 'package:flutter_package_02/BottomAppBarDemo.dart';
+import 'package:flutter_package_03/PageRouterFirst.dart';
 
 void main() => runApp(MyApp());
 
@@ -75,12 +76,12 @@ class _MyHomePageState extends State<MyHomePage> {
                 }
             ),new Divider(),
             new ListTile(
-              title: Text("03 底部tab"),
+              title: Text("03 路由动画 PageRouterBuilder"),
               trailing: Icon(Icons.location_on),
                 onTap: () {
                   Navigator.pop(context);
                   Navigator.push(context, MaterialPageRoute(
-                      builder: (context) => new BottomNavigationWidget()));
+                      builder: (context) => new PageRouterFirst()));
                 }
             ),new Divider(),
             new ListTile(
@@ -167,8 +168,11 @@ class _MyHomePageState extends State<MyHomePage> {
               },
             ),new Divider(),
              new ListTile(
-              title: Text("03 底部tab"),
+              title: Text("03 路由动画 PageRouterBuilder"),
               trailing: Icon(Icons.location_on),
+               onTap: (){
+                Navigator.push(context, MaterialPageRoute(builder: (context)=> new PageRouterFirst()));
+               },
             ),new Divider(),
              new ListTile(
               title: Text("04 底部tab"),
