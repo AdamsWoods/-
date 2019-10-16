@@ -29,53 +29,11 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.14.11"
-  cupertino_icons:
-    dependency: "direct main"
-    description:
-      name: cupertino_icons
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.1.2"
   flutter:
     dependency: "direct main"
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_package_01:
-    dependency: "direct main"
-    description:
-      path: flutter_package_01
-      relative: true
-    source: path
-    version: "0.0.1"
-  flutter_package_02:
-    dependency: "direct main"
-    description:
-      path: flutter_package_02
-      relative: true
-    source: path
-    version: "0.0.1"
-  flutter_package_03:
-    dependency: "direct main"
-    description:
-      path: flutter_package_03
-      relative: true
-    source: path
-    version: "0.0.1"
-  flutter_package_04:
-    dependency: "direct main"
-    description:
-      path: flutter_package_04
-      relative: true
-    source: path
-    version: "0.0.1"
-  flutter_package_05:
-    dependency: "direct main"
-    description:
-      path: flutter_package_05
-      relative: true
-    source: path
-    version: "0.0.1"
   flutter_test:
     dependency: "direct dev"
     description: flutter
