@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_package_01/BottomNavigationWidget.dart';
-
+import 'package:flutter_package_02/BottomAppBarDemo.dart';
 
 void main() => runApp(MyApp());
 
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.teal,
       ),
       home: MyHomePage(title: 'Flutter Demo Home Page'),
     );
@@ -58,7 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             new ListTile(
               trailing: Icon(Icons.location_on),
-              title: Text("01 底部tab"),
+              title: Text("01 底部导航栏 BottomNavigationBar Demo"),
               onTap: () {
                 Navigator.pop(context);
                 Navigator.push(context, MaterialPageRoute(
@@ -66,12 +66,12 @@ class _MyHomePageState extends State<MyHomePage> {
               }
             ), new Divider(),
             new ListTile(
-              title: Text("02 底部tab"),
+              title: Text("02 不规则底部导航栏 BottomAppBar Demo"),
               trailing: Icon(Icons.location_on),
                 onTap: () {
                   Navigator.pop(context);
                   Navigator.push(context, MaterialPageRoute(
-                      builder: (context) => new BottomNavigationWidget()));
+                      builder: (context) => new BottomAppBarDemo()));
                 }
             ),new Divider(),
             new ListTile(
@@ -153,15 +153,18 @@ class _MyHomePageState extends State<MyHomePage> {
         child: ListView(
           children: <Widget>[
             new ListTile(
-              title: Text("01 底部tab"),
+              title: Text("01 底部导航栏 BottomNavigationBar"),
               trailing: Icon(Icons.location_on),
               onTap: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context) => new BottomNavigationWidget()));
               }
             ),new Divider(),
             new ListTile(
-              title: Text("02 底部tab"),
+              title: Text("02 不规则底部导航栏 BottomAppBar"),
               trailing: Icon(Icons.location_on),
+              onTap: (){
+                Navigator.push(context, MaterialPageRoute(builder: (context)=> new BottomAppBarDemo()));
+              },
             ),new Divider(),
              new ListTile(
               title: Text("03 底部tab"),

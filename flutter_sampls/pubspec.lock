@@ -48,6 +48,13 @@ packages:
       relative: true
     source: path
     version: "0.0.1"
+  flutter_package_02:
+    dependency: "direct main"
+    description:
+      path: flutter_package_02
+      relative: true
+    source: path
+    version: "0.0.1"
   flutter_test:
     dependency: "direct dev"
     description: flutter
