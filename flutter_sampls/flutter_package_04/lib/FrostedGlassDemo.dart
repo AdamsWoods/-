@@ -6,7 +6,6 @@ import 'package:flutter/material.dart';
 
 class FrostedGlassDemo extends StatelessWidget{
 
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -17,7 +16,7 @@ class FrostedGlassDemo extends StatelessWidget{
         children: <Widget>[
           ConstrainedBox(//裁剪长方形
             constraints: const BoxConstraints.expand(),
-            child: Image.asset("images/back.png"),),
+            child: Image.asset("images/back.png", package: 'flutter_package_04',),),
           Center(
             child: ClipRect(//背景滤镜
               child: BackdropFilter(

@@ -53,3 +53,5 @@ flutter:
   # https://flutter.dev/custom-fonts/#from-packages
   assets:
     - images/back.png
+    - images/2x/back.png
+    - images/3.5x/back.png

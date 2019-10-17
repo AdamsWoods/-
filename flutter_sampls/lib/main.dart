@@ -4,6 +4,7 @@ import 'package:flutter_package_02/BottomAppBarDemo.dart';
 import 'package:flutter_package_03/PageRouterFirst.dart';
 import 'package:flutter_package_04/FrostedGlassDemo.dart';
 import 'package:flutter_package_05/KeepAliveDemo.dart';
+import 'package:flutter_package_06/SearchBarDemo.dart';
 
 void main() => runApp(MyApp());
 
@@ -96,7 +97,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 }
             ),new Divider(),
             new ListTile(
-              title: Text("05 顶部tab页 TabBar"),
+              title: Text("05 顶部tab页 TabBar Demo"),
               trailing: Icon(Icons.location_on),
                 onTap: () {
                   Navigator.pop(context);
@@ -105,12 +106,12 @@ class _MyHomePageState extends State<MyHomePage> {
                 }
             ),new Divider(),
             new ListTile(
-              title: Text("06 底部tab"),
+              title: Text("06 搜索框 SearchBar Demo"),
               trailing: Icon(Icons.location_on),
                 onTap: () {
                   Navigator.pop(context);
                   Navigator.push(context, MaterialPageRoute(
-                      builder: (context) => new BottomNavigationWidget()));
+                      builder: (context) => new SearchBarDemo()));
                 }
             ),new Divider(),
             new ListTile(
@@ -191,8 +192,11 @@ class _MyHomePageState extends State<MyHomePage> {
                },
             ),new Divider(),
              new ListTile(
-              title: Text("06 底部tab"),
+              title: Text("06 搜索框 SearchBar"),
               trailing: Icon(Icons.location_on),
+               onTap: (){
+                Navigator.of(context).push(MaterialPageRoute(builder: (context)=> new SearchBarDemo()));
+               },
             ),new Divider(),
              new ListTile(
               title: Text("07 底部tab"),
