@@ -5,6 +5,7 @@ import 'package:flutter_package_03/PageRouterFirst.dart';
 import 'package:flutter_package_04/FrostedGlassDemo.dart';
 import 'package:flutter_package_05/KeepAliveDemo.dart';
 import 'package:flutter_package_06/SearchBarDemo.dart';
+import 'package:flutter_package_07/WrapDemo.dart';
 
 void main() => runApp(MyApp());
 
@@ -57,7 +58,6 @@ class _MyHomePageState extends State<MyHomePage> {
                 backgroundImage: new AssetImage('images/head_image.png'),
                 child: new Image.asset("images/head_image.png"),
                 backgroundColor: Colors.white,
-
               ),
             ),
             new ListTile(
@@ -115,12 +115,12 @@ class _MyHomePageState extends State<MyHomePage> {
                 }
             ),new Divider(),
             new ListTile(
-              title: Text("07 底部tab"),
+              title: Text("07 流式布局 Wrap Demo"),
               trailing: Icon(Icons.location_on),
                 onTap: () {
                   Navigator.pop(context);
                   Navigator.push(context, MaterialPageRoute(
-                      builder: (context) => new BottomNavigationWidget()));
+                      builder: (context) => new WrapDemo()));
                 }
             ),new Divider(),
             new ListTile(
@@ -199,8 +199,11 @@ class _MyHomePageState extends State<MyHomePage> {
                },
             ),new Divider(),
              new ListTile(
-              title: Text("07 底部tab"),
+              title: Text("07 流式布局 Wrap"),
               trailing: Icon(Icons.location_on),
+               onTap: (){
+                 Navigator.of(context).push(MaterialPageRoute(builder: (context)=> new WrapDemo()));
+               },
             ),new Divider(),
              new ListTile(
               title: Text("08 底部tab"),
