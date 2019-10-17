@@ -11,11 +11,16 @@ class SearchBarDemo extends StatefulWidget {
 class _SearchBarState extends State<SearchBarDemo> {
 
   bool _harder;
+  BuildContext _buildContext;
 
   @override
   void initState() {
-    _harder = false;
     super.initState();
+    _harder = false;
+  }
+
+  void toast(){
+    Scaffold.of(_buildContext).showSnackBar(SnackBar(content: Text("Work a lot harder"),));
   }
 
   @override
@@ -31,14 +36,26 @@ class _SearchBarState extends State<SearchBarDemo> {
                 showSearch(context: context, delegate: MySearchDelegate());
               }),
           IconButton(icon: Icon(Icons.add_a_photo, color: Colors.white,), onPressed: null,),
-          IconButton(icon: Icon(Icons.account_box, color: Colors.white,), onPressed: null,),
+          IconButton(
+            icon: Icon(Icons.account_box, color: Colors.white,),
+            onPressed: () async{
+              final result = await showMenu(
+                  context: context, 
+                  position: RelativeRect.fromLTRB(100.0, 200, 100.0, 100.0),
+                  items: <PopupMenuItem<String>>[
+                    PopupMenuItem<String>(value: "value01", child: Text("popup item 01"),),
+                    PopupMenuItem<String>(value: "value02", child: Text("popup item 02"),),
+                    PopupMenuItem<String>(value: "value03", child: Text("popup item 03"),),
+                  ]);
+          },),
           PopupMenuButton(
               onSelected: (result){
                 switch(result){
                   case 'harder':
+                    print("点击了一个popmenuitem");
                     setState(() {
                       _harder = !_harder;
-                      SnackBar(content: Text("Work a lot harder"));
+                      toast();
                     });
                     break;
                 }
@@ -64,9 +81,12 @@ class _SearchBarState extends State<SearchBarDemo> {
               ]),
         ],
       ),
-      body: Column(
+      body: Builder(builder: (BuildContext context) {
+        _buildContext = context;
+          return Center(
 
-      ),
+          );
+      }),
     );
   }
 
