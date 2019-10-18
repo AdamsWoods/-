@@ -6,6 +6,8 @@ import 'package:flutter_package_04/FrostedGlassDemo.dart';
 import 'package:flutter_package_05/KeepAliveDemo.dart';
 import 'package:flutter_package_06/SearchBarDemo.dart';
 import 'package:flutter_package_07/WrapDemo.dart';
+import 'package:flutter_package_08/ExpasionTileDemo.dart';
+import 'package:flutter_package_09/ClipPathDemo.dart';
 
 void main() => runApp(MyApp());
 
@@ -15,6 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.teal,
       ),
@@ -124,21 +127,21 @@ class _MyHomePageState extends State<MyHomePage> {
                 }
             ),new Divider(),
             new ListTile(
-              title: Text("08 底部tab"),
+              title: Text("08 扩展列表 ExpasionTile & ExpansionTileList"),
               trailing: Icon(Icons.location_on),
                 onTap: () {
                   Navigator.pop(context);
                   Navigator.push(context, MaterialPageRoute(
-                      builder: (context) => new BottomNavigationWidget()));
+                      builder: (context) => new ExpansionTileDemo()));
                 }
             ),new Divider(),
             new ListTile(
-              title: Text("09 底部tab"),
+              title: Text("09 赛贝尔曲线 ClipPath"),
               trailing: Icon(Icons.location_on),
                 onTap: () {
                   Navigator.pop(context);
                   Navigator.push(context, MaterialPageRoute(
-                      builder: (context) => new BottomNavigationWidget()));
+                      builder: (context) => new ClipPathDemo()));
                 }
             ),new Divider(),
             new ListTile(
@@ -206,12 +209,18 @@ class _MyHomePageState extends State<MyHomePage> {
                },
             ),new Divider(),
              new ListTile(
-              title: Text("08 底部tab"),
+              title: Text("08 扩展列表 ExpasionTile & ExpansionTileList"),
               trailing: Icon(Icons.location_on),
+               onTap: (){
+                 Navigator.of(context).push(MaterialPageRoute(builder: (context)=> new ExpansionTileDemo()));
+               },
             ),new Divider(),
              new ListTile(
-              title: Text("09 底部tab"),
+              title: Text("09 赛贝尔曲线 ClipPath"),
               trailing: Icon(Icons.location_on),
+               onTap: (){
+                 Navigator.of(context).push(MaterialPageRoute(builder: (context)=> new ClipPathDemo()));
+               },
             ),new Divider(),
              new ListTile(
               title: Text("10 底部tab"),

@@ -18,6 +18,8 @@
 
   `WeakReference<T> wrf = new WeakReference( t );`
 
+***
+
 ##### 2、图片压缩，防止oom（基础，有待提高）
 
 获取图片：
@@ -51,5 +53,79 @@ public static Bitmap decodeStream(InputStream is)
     }
 ```
 
+***
+
 ##### 3、阻塞数组队列ArrayBlockingQueue
+
+
+
+---
+
+##### 4、GradientDrawable 控件形状的修改
+
+> GradientDrawable 是xml中的shape标签，可动态获取控件、修改控件形状的Java代码实现
+
+* Java代码中动态修改
+
+  ```java
+  //获取控件的shape实例
+  GradientDrawable backgound = (GradientDrawable)view.getBackground();
+  //设置颜色
+  background.setColor();
+  //设置圆角
+  background.setCornerRadius(20);
+  //设置形状(椭圆形)
+  background.setShape(GradientDrawable.OVAL);
+  //给控件设置shape
+  view.setBackgroundDrawable(background);
+  ```
+
+  * setShape(int shape); 参数可使用如下：
+    * GradientDrawable.RECTANGLE: 矩形
+    * GradientDrawable.OVLA: 椭圆形
+    * GradientDrawable.LINE: 线
+    * GradientDrawable.RING: 环形
+
+* xml中修改
+
+  设置控件的background的属性，@drawable/shape，对应的shape.xml中的内容为：
+
+  ```xml
+  <?xml version="1.0" encoding="utf-8"?>
+  <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+      <solid android:color="@color/colorAccent"/>
+  </shape>
+  ```
+
+---
+
+##### 5、StateListDrawable 控件的不同状态修改为不同的图片
+
+> Drawable中的selector会被解析成StateListDrawable对象。该对象可放selctor中不同的状态，来修改控件的不同状态。也可直接手动写StateListDrawable，来修改状态，不需要selector.xml。
+
+下面开始手动写一个：
+
+```java
+//初始化一个对象
+StateListDrawable stateListDrawable = new StateListDrawable();
+//获取属性值
+int pressed = android.R.attr.state_Pressed;
+int focused = android.R.attr.state_Focused;
+//添加状态-pressed 为false, 第一个参数：状态；第二个参数：对应的图片
+stateListDrawable.addState(new int[]{- pressed}, getResource().getDrawable(R.drawable.*));
+stateListDrawable.addState(new int[]{pressed}, getResource().getDrawable(R.drawable.*));
+stateListDrawable.addState(new int[]{- pressed}, getResource().getDrawable(R.drawable.*));
+//没有状态时显示的图片
+stateListDrawable.addState(new int[]{- pressed}, getResource().getDrawable(R.drawable.*));
+```
+
+使用xml的selector，可以达到同样效果，与GradientDrawable相同设置。
+
+---
+
+```sequence
+alice -> bob:hello
+```
+
+
 
