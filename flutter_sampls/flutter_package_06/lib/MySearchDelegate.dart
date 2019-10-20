@@ -6,9 +6,9 @@ class MySearchDelegate extends SearchDelegate{
   MySearchDelegate({
     String hintText
   }):super (
-    searchFieldLabel: "请输入搜索关键字",
-    keyboardType: TextInputType.text,
-    textInputAction: TextInputAction.search
+//    searchFieldLabel: "请输入搜索关键字",
+//    keyboardType: TextInputType.text,
+//    textInputAction: TextInputAction.search
   );
 
   /// 右侧的图标，清除
