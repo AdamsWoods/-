@@ -8,6 +8,9 @@ import 'package:flutter_package_06/SearchBarDemo.dart';
 import 'package:flutter_package_07/WrapDemo.dart';
 import 'package:flutter_package_08/ExpasionTileDemo.dart';
 import 'package:flutter_package_09/ClipPathDemo.dart';
+import 'package:flutter_package_10/SplashPage.dart';
+import 'package:flutter_package_11/RightBackDemo.dart';
+import 'package:flutter_package_12/DraggableDemo.dart';
 
 void main() => runApp(MyApp());
 
@@ -22,6 +25,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.teal,
       ),
       home: MyHomePage(title: 'Flutter Demo Home Page'),
+//      home: SplashPage(),
     );
   }
 }
@@ -127,7 +131,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 }
             ),new Divider(),
             new ListTile(
-              title: Text("08 扩展列表 ExpasionTile & ExpansionTileList"),
+              title: Text("08 扩展列表 ExpasionTile & ExpansionTileList Demo"),
               trailing: Icon(Icons.location_on),
                 onTap: () {
                   Navigator.pop(context);
@@ -136,7 +140,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 }
             ),new Divider(),
             new ListTile(
-              title: Text("09 赛贝尔曲线 ClipPath"),
+              title: Text("09 赛贝尔曲线 ClipPath Demo"),
               trailing: Icon(Icons.location_on),
                 onTap: () {
                   Navigator.pop(context);
@@ -145,14 +149,32 @@ class _MyHomePageState extends State<MyHomePage> {
                 }
             ),new Divider(),
             new ListTile(
-              title: Text("10 底部tab"),
+              title: Text("10 启动页 Splash Page Demo"),
               trailing: Icon(Icons.location_on),
                 onTap: () {
                   Navigator.pop(context);
                   Navigator.push(context, MaterialPageRoute(
-                      builder: (context) => new BottomNavigationWidget()));
+                      builder: (context) => new SplashPage()));
                 }
-            ),
+            ),new Divider(),
+            new ListTile(
+              title: Text("11 向右滑动返回 Right Back Demo"),
+              trailing: Icon(Icons.location_on),
+                onTap: () {
+                  Navigator.pop(context);
+                  Navigator.push(context, MaterialPageRoute(
+                      builder: (context) => new RightBackDemo()));
+                }
+            ),new Divider(),
+            new ListTile(
+              title: Text("12 拖拽控件 Draggable & DragTarget De,p"),
+              trailing: Icon(Icons.location_on),
+                onTap: () {
+                  Navigator.pop(context);
+                  Navigator.push(context, MaterialPageRoute(
+                      builder: (context) => new DraggableDemo()));
+                }
+            )
           ],
         )
       ),
@@ -223,18 +245,26 @@ class _MyHomePageState extends State<MyHomePage> {
                },
             ),new Divider(),
              new ListTile(
-              title: Text("10 底部tab"),
+              title: Text("10 启动页splash page"),
               trailing: Icon(Icons.location_on),
+               onTap: (){
+                 Navigator.of(context).push(MaterialPageRoute(builder: (context)=> new SplashPage()));
+               },
             ),new Divider(),
              new ListTile(
-              title: Text("11 底部tab"),
+              title: Text("11 向右滑动返回 Right Back"),
               trailing: Icon(Icons.location_on),
+               onTap: (){
+                 Navigator.of(context).push(MaterialPageRoute(builder: (context)=> new RightBackDemo()));
+               },
             ),new Divider(),
              new ListTile(
-              title: Text("12 底部tab"),
+              title: Text("12 拖拽控件 Draggable & DragTarget"),
               trailing: Icon(Icons.location_on),
-            ),new Divider(),
-
+               onTap: (){
+                 Navigator.of(context).push(MaterialPageRoute(builder: (context)=> new DraggableDemo()));
+               },
+            )
           ],
         ),
       ),

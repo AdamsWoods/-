@@ -1,4 +1,4 @@
-name: flutter_package_10
+name: flutter_package_11
 description: A new Flutter package.
 version: 0.0.1
 author:
@@ -10,7 +10,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
 
 dev_dependencies:
   flutter_test:
@@ -52,6 +51,3 @@ flutter:
   #
   # For details regarding fonts in packages, see
   # https://flutter.dev/custom-fonts/#from-packages
-  assets:
-    - images/back.png
-
