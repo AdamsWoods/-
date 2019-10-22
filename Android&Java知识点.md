@@ -57,9 +57,20 @@ public static Bitmap decodeStream(InputStream is)
 
 ##### 3、阻塞数组队列ArrayBlockingQueue
 
+> 所谓阻塞，在某些情况下会挂起线程（即阻塞），一旦条件满足，被挂起的线程又会自动被唤醒。当队列满了，生产者会停顿等待消费者消费；当达到一定条件生产者继续生产。
+>
+> 队列使用的是一个数组，使用put，offer，take，poll，提供任务和获取任务
 
+* 获取数据
+  * poll(time)：在指定时间内取得数据，若没有取得，则返回失败；若成功取得，则返回成功。
+  * take()：如果blokqueue为空，则等待线程挂起，直到不为空。
+  * drainTo()：一次获取所有的数据对象，不许要分批加锁或释放锁。
 
----
+* 放入数据
+  * offer(anObject)：如果能够放入blockqueue即能够容纳，则返回true，否则返回false。
+  * put(anObject)：如果anObject不能放入blockqueue，则当前的执行线程阻塞，等待blockqueue有空间再继续。
+
+在创建ArrayBlockingQueue时，我们还可以控制对象的内部锁是否采用公平锁，默认采用非公平锁
 
 ##### 4、GradientDrawable 控件形状的修改
 
