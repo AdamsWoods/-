@@ -234,6 +234,22 @@ application = (Application) method.invoke(object);
   * 共享数据变量，如：handler。但是app被结束掉，数据就消失，无法持久化保存。
   * 设置静态方法，全局使用。如：一键退出。
 
+#### 6、LifeCyleObserver
+
+> 生命周期
+
+#### 7、keep注解
+
+
+
+#### 8、万能ViewAdapter
+
+
+
+#### 9、FlowableProcessor 解决Rxjava中的背压现象
+
+
+
 ##### 学习为的是什么？
 
 全面的知识？工作？技能？新的技术？
