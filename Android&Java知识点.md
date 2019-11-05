@@ -134,6 +134,12 @@ stateListDrawable.addState(new int[]{- pressed}, getResource().getDrawable(R.dra
 
 ---
 
+##### 6、Field类对象
+
+> 描述的是类的属性信息，可获取当前对象的成员变量类型，对成员变量重新设值
+
+
+
 ```sequence
 alice -> bob:hello
 ```

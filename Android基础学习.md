@@ -250,6 +250,146 @@ application = (Application) method.invoke(object);
 
 
 
+#### 10、room数据库框架
+
+>  参照链接：[https://juejin.im/post/5a4228036fb9a044ff31b8ca#heading-8](https://juejin.im/post/5a4228036fb9a044ff31b8ca#heading-8)
+
+需要再build.gradle文件中添加 `google()`
+
+添加如下依赖：
+
+```groovy
+implementation 'android.arch.persistence.room:runtime:1.0.0'
+annotationProcessor 'android.arch.persistence.room:compiler:1.0.0'
+//添加测试支持，我们可以对数据库进行androidTest（后面会介绍）
+implementation 'android.arch.persistence.room:testing:1.0.0'
+```
+
+分为一下几个部分：
+
+* Entity 
+
+  运用注解@Entity(@tableName = "") @primaryKey(autoGenerate = true)
+
+  ```java
+  @Entity(tableName = "products")
+  public class ProductEntity implements Product {    
+      @PrimaryKey    private int id;    
+      private String name;                                     }
+  ```
+
+* Dao
+
+  ```java
+  @Dao
+  public interface ProductDao {
+      @Query("SELECT * FROM products")
+      LiveData<List<ProductEntity>> loadAllProducts();
+  
+      @Insert(onConflict = OnConflictStrategy.REPLACE)
+      void insertAll(List<ProductEntity> products);
+  
+      @Query("select * from products where id = :productId")
+      LiveData<ProductEntity> loadProduct(int productId);
+  
+      @Query("SELECT products.* FROM products JOIN productsFts ON (products.id = productsFts.rowid) "
+          + "WHERE productsFts MATCH :query")
+      LiveData<List<ProductEntity>> searchAllProducts(String query);
+  }
+  ```
+
+  也可以使用事务
+
+* AppDataBase
+
+  生成数据库实例：
+
+  ```
+  RoomDemoDatabase database = Room.databaseBuilder(getApplicationContext(),
+                  RoomDemoDatabase.class, "database_name")
+                  .build();
+  ```
+
+  其他操作：
+
+  ```Java
+  Room.databaseBuilder(appContext, AppDatabase.class, DATABASE_NAME)
+       .addCallback(new Callback() {	
+           //第一次调用数据库时使用，创建所有表之后调用
+           @Override
+           public void onCreate(@NonNull SupportSQLiteDatabase db) {
+                  super.onCreate(db);
+           });
+        }).addMigrations(MIGRATION_1_2) //数据库迁移
+          .build();
+  ```
+
+* 类型转换 @TypeConverters
+
+  ```Java
+  public class Converters {
+      @TypeConverter
+      public static Date fromTimestamp(Long value) {
+          return value == null ? null : new Date(value);
+      }
+  
+      @TypeConverter
+      public static Long dateToTimestamp(Date date) {
+          return date == null ? null : date.getTime();
+      }
+  }
+  ```
+
+  在其他查询中，可以使用自己的定义类型，如下：
+
+  ```java
+  @Database(entities = {User.class}, version = 1)
+  @TypeConverters({Converters.class})
+  public abstract class AppDatabase extends RoomDatabase {
+      public abstract UserDao userDao();
+  }
+  
+  @Dao
+  public interface UserDao {
+      ...
+      @Query("SELECT * FROM user WHERE birthday BETWEEN :from AND :to")
+      List<User> findUsersBornBetweenDates(Date from, Date to);
+  }
+  ```
+
+#### 11、Fragment生命周期
+
+* 创建时，有如下过程：
+  * onAttache
+  * onCreate
+  * onCreateView
+  * onActivityCreated
+
+* 可见时，有如下过程：
+  * onStart
+  * onResume
+* 进入后台时，有如下过程：
+  * onPause
+  * onStop
+
+* 被销毁时，有如下过程:
+  * onPause
+  * onStop
+  * onDestroyView
+  * onDestroy
+  * onDetach
+
+* 与Activity交互时，有这些过程：
+  * onAttached--Fragment和activity关联时，调用这个方法
+  * onCreateView---创建Fragment视图时
+  * onActivityCreated—— 当activity的onCreate()方法被返回之后，调用这个方法。
+  * onDestroyView--当fragment视图被移除时
+  * onDetach--当activity与fragment方法分离时
+
+#### 12、dispatchOnTouchEvent() 事件分发
+
+
+
 ##### 学习为的是什么？
 
 全面的知识？工作？技能？新的技术？
@@ -261,3 +401,4 @@ application = (Application) method.invoke(object);
 * GitHub学习资料
 * developers实例学习
 * 管网项目的模仿学习
+
