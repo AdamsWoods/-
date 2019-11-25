@@ -390,6 +390,20 @@ implementation 'android.arch.persistence.room:testing:1.0.0'
 
 
 
+#### 13、图片裁剪
+
+* BitMap.createMap(bitmap, x, y, height, width, matrix, touch);
+
+
+
+#### 14、屏幕适配
+
+> 参考链接： [https://www.jianshu.com/p/ec5a1a30694b](https://www.jianshu.com/p/ec5a1a30694b)  
+
+* 屏幕尺寸，分辨率，像素密度
+
+
+
 ##### 学习为的是什么？
 
 全面的知识？工作？技能？新的技术？

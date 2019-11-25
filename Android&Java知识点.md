@@ -138,9 +138,30 @@ stateListDrawable.addState(new int[]{- pressed}, getResource().getDrawable(R.dra
 
 > 描述的是类的属性信息，可获取当前对象的成员变量类型，对成员变量重新设值
 
+#### 7、屏幕适配
+
+	>  [https://mp.weixin.qq.com/s/d9QCoBP6kV9VSWvVldVVwA](!https://mp.weixin.qq.com/s/d9QCoBP6kV9VSWvVldVVwA)  参考链接,今日头条
+
+* px = density * dp;
+* density = dpi / 160;
+* px = dp * (dpi / 160);
+
+运用今日头条的修改密度值如上链接；
+
+采用smallestWidth方案：[https://github.com/ladingwu/dimens_sw#%E5%B8%8C%E6%9C%9B%E7%94%A8%E7%9C%9F%E6%9C%BA%E6%B5%8B%E8%AF%95%E7%9A%84%E5%8F%AF%E8%BF%90%E8%A1%8Capp%E9%A1%B9%E7%9B%AE%E7%9C%8B%E6%95%88%E6%9E%9C%E6%95%88%E6%9E%9C%E5%A6%82%E4%B8%8B%E5%9B%BE](https://github.com/ladingwu/dimens_sw#希望用真机测试的可运行app项目看效果效果如下图) 项目地址如上。
+
+参考文章如下：[https://mp.weixin.qq.com/s/X-aL2vb4uEhqnLzU5wjc4Q](!https://mp.weixin.qq.com/s/X-aL2vb4uEhqnLzU5wjc4Q) 
+
+#### 8、ARouter
+
+#### 9、HyBrid App
+
+#### 10\
+
 
 
 ```sequence
+
 alice -> bob:hello
 ```
 
