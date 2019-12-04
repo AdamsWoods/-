@@ -1,3 +1,5 @@
+
+
 ###  一、Service和BroadcastReceiver
 
 ####  1、Service
@@ -545,6 +547,8 @@ stateListDrawable.addState(new int[]{- pressed}, getResource().getDrawable(R.dra
 
 > 描述的是类的属性信息，可获取当前对象的成员变量类型，对成员变量重新设值
 
+
+
 #### 21、ARouter阿里的路由
 
 
@@ -601,7 +605,7 @@ stateListDrawable.addState(new int[]{- pressed}, getResource().getDrawable(R.dra
 
   * 创建CMakeLists.txt文件，与java同级别，c++的路径配置
 
-    ```
+    ```java
     cmake_minimum_required(VERSION 3.4.1)
     
     add_library( # Sets the name of the library.
@@ -635,12 +639,106 @@ stateListDrawable.addState(new int[]{- pressed}, getResource().getDrawable(R.dra
     textView1.setText(NativeHelper.stringFromJNI());
     ```
 
-    
+#### 24、数据懒加载
+
+```java
+    @Override
+    public void setUserVisibleHint(boolean isVisibleToUser) {
+        super.setUserVisibleHint(isVisibleToUser);
+        if (getUserVisibleHint()) {
+            isVisible = true;
+            onVisible();
+        } else {
+            isVisible = false;
+            onInvisible();
+        }
+    }
+    protected void onVisible() {
+        lazyLoad();
+    }
+    protected void onInvisible() {
+    }
+```
+
+当Fragemtn可见时，才加载数据，不可见时不加载。
+
+####  25、LeakCanary性能优化工具  Android Monitor + MAT
+
+
+
+#### 26、 Navigation导航
+
+> 参考链接：[https://www.jianshu.com/p/d37f5132db3c](https://www.jianshu.com/p/d37f5132db3c)  [https://www.jianshu.com/p/fa755a2df4ff](https://www.jianshu.com/p/fa755a2df4ff) 
+>
+> Navigation 是 JetPack 中的一个组件，用于方便的实现页面的导航（导航有一个起始地和目的地）
+>
+> 作为构建您的应用内界面的框架，重点是让`单 Activity 应用`成为首选架构。利用 Navigation 组件对 Fragment 的原生支持，您可以获得架构组件的所有好处（例如生命周期和 ViewModel），同时让此组件为您处理 FragmentTransaction 的复杂性。此外，Navigation组件还可以让您声明我们为您处理的转场。它可以自动构建正确的“向上”和“返回”行为，包含对深层链接的完整支持，并提供了帮助程序，用于将导航关联到合适的 UI 小部件，例如抽屉式导航栏和底部导航。
+
+添加依赖：
+
+```groovy
+buildscript {
+    repositories {
+        google()
+    }
+    dependencies {
+        classpath "android.arch.navigation:navigation-safe-args-gradle-plugin:1.0.0-alpha01"
+    }
+}
+
+def nav_version = "1.0.0-alpha05"
+implementation "android.arch.navigation:navigation-fragment:$nav_version" // use -ktx for Kotlin
+implementation "android.arch.navigation:navigation-ui:$nav_version" // use -ktx for Kotlin
+// optional - Test helpers
+androidTestImplementation "android.arch.navigation:navigation-testing:$nav_version" // use -ktx for Kotlin
+```
+
+###### 1、添加res/navigation/nav_gragh文件
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_graph_first_fragment">
+    <fragment
+        android:id="@+id/nav_graph_first_fragment"
+        android:name="pot.ner347.androiddemo.navigation.FirstFragment"
+        android:label="first"
+        tools:layout="@layout/fragment_first"/>
+</navigation>
+```
+
+###### 2、创建Fragment，start，destination
+
+1.添加依赖
+
+2.创建res/navigation/nav_gragh文件，进入design模式
+
+3.添加fragment，在此可创建。同时nav_gragh中会自动添加一个fragment节点。也可以将fragment分组，从而嵌套。
+
+4.开始路由，在design模式中连线，设定路由。同时，可以添加路由参数传递。
+
+5.在fragment类中，添加点击跳转的路由事件。Navigation.findColltroler(View view).navigate(int resid)。同时，可以通过此方法的重载方法传递参数。也可以使用类名+Directions.action..().set**()
+
+6.将nav_gragh与activity相连接起来，就可完成fragment的路由。
+
+
+
+
+
+
+
+
+
 
 ```sequence
 
 alice -> bob:hello
 ```
+
+
 
 
 
