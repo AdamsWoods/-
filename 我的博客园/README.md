@@ -3,3 +3,4 @@
 只有一点点，不过其他的东西也都在[http://www.cnblog.com/wisdomzhang](http://www.cnblog.com/wisdomzhang)
 
 都是一些垃圾，根本就没有什么可以学习。
+
