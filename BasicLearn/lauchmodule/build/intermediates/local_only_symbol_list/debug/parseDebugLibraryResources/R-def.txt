@@ -1,0 +1,7 @@
+R_DEF: Internal format may change without notice
+local
+id main_recyclerView
+id title
+layout activity_launch
+layout text_item
+string app_name

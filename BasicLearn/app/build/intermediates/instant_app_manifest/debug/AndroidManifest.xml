@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.basiclearn"
+    android:targetSandboxVersion="2"
+    android:versionCode="1"
+    android:versionName="image1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="29" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.basiclearn.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.basiclearn.chapter10.ServiceActivity" />
+        <activity android:name="com.example.basiclearn.chapter9.DictResolver" />
+        <activity android:name="com.example.chapter8.RecogniseActivity" />
+        <activity android:name="com.example.chapter8.AddGesture" />
+        <activity android:name="com.example.chapter8.GestureFlip" />
+        <activity android:name="com.example.chapter8.GestureTest" />
+        <activity android:name="com.example.chapter8.Dict" />
+        <activity android:name="com.example.basiclearn.SdcardViewActivity" />
+        <activity android:name="com.example.basiclearn.ButterFlyActivity" />
+        <activity android:name="com.example.basiclearn.MoveBackActivity" />
+        <activity android:name="com.example.basiclearn.Texture3DActivity" />
+        <activity android:name="com.example.basiclearn.PolygonActivity" />
+        <activity android:name="com.example.basiclearn.PinBallActivity" />
+        <activity android:name="com.example.basiclearn.HandDrawActivity" />
+        <activity
+            android:name="com.example.basiclearn.DateChooseActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name="com.example.basiclearn.MainActivity03" />
+        <activity
+            android:name="com.example.basiclearn.TabHostTestActivity"
+            android:label="查看经典" />
+        <activity android:name="com.example.basiclearn.chapter4.ExpandableListActivityTest" />
+        <activity android:name="com.example.basiclearn.chapter4.OtherActivity" />
+
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/preference" />
+
+        <provider
+            android:name="com.example.basiclearn.chapter9.DictProvider"
+            android:authorities="com.example.basiclearn.chapter9" />
+
+        <service android:name="com.example.basiclearn.chapter10.FristService" >
+            <intent-filter>
+                <action android:name="com.example.basiclearn.service.FRIST_SERVICE" />
+            </intent-filter>
+        </service>
+        <service android:name="com.example.basiclearn.chapter10.BindService" >
+            <intent-filter>
+                <action android:name="com.example.basiclearn.service.BIND_SERVICE" />
+            </intent-filter>
+        </service>
+
+        <activity android:name="com.example.lauchmodule.LaunchActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.ndklibrary.Main1Activity" >
+        </activity>
+    </application>
+
+</manifest>

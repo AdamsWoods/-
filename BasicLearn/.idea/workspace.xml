@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9f94e416-d99f-4fa7-b868-ee85ee2726e6" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="BasicLearn" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="resourceFile" />
+        <option value="layoutResourceFile_vertical" />
+        <option value="valueResourceFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GroovyConsoleState">
+    <option name="list">
+      <list>
+        <Entry>
+          <option name="url" value="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console_2.groovy" />
+          <option name="moduleName" value="BasicLearn" />
+          <option name="title" value="BasicLearn (Bundled Groovy 2.4.15)" />
+        </Entry>
+        <Entry>
+          <option name="url" value="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console_1.groovy" />
+          <option name="moduleName" value="BasicLearn" />
+          <option name="title" value="BasicLearn (Bundled Groovy 2.4.15)" />
+        </Entry>
+        <Entry>
+          <option name="url" value="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console.groovy" />
+          <option name="moduleName" value="" />
+          <option name="title" value="app (Bundled Groovy 2.4.15)" />
+        </Entry>
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/apknameplugin/build.gradle" />
+        <option value="$PROJECT_DIR$/apknameplugin/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/apknameplugin/src/main/java/com/example/apknameplugin/Facer.java" />
+        <option value="$PROJECT_DIR$/apknameplugin/src/main/java/com/example/apknameplugin/Main1Activity.java" />
+        <option value="$PROJECT_DIR$/apknameplugin/src/main/java/com/example/apknameplugin/NativeHelper.java" />
+        <option value="$PROJECT_DIR$/apknameplugin/src/main/res/layout/activity_main1.xml" />
+        <option value="$PROJECT_DIR$/apknameplugin/src/main/cpp/Facer.cpp" />
+        <option value="$PROJECT_DIR$/apknameplugin/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/apknameplugin/src/main/cpp/native-lib.cpp" />
+        <option value="$PROJECT_DIR$/apknameplugin/src/main/cpp/Facer.h" />
+        <option value="$PROJECT_DIR$/ndklibrary/src/main/res/values/dimen.xml" />
+        <option value="$PROJECT_DIR$/ndklibrary/src/main/java/com/example/ndklibrary/Facer.java" />
+        <option value="$PROJECT_DIR$/ndklibrary/src/main/cpp/Facer.cpp" />
+        <option value="$PROJECT_DIR$/ndklibrary/src/main/cpp/Facer.h" />
+        <option value="$PROJECT_DIR$/ndklibrary/src/main/cpp/bitmap_utils.h" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/basiclearn/MainActivity03.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/basiclearn/GalleryActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/basiclearn/DateChooseActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/basiclearn/CirclePgBarView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/basiclearn/ButterFlyActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/basiclearn/MoveBack.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/basiclearn/MoveBackActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/basiclearn/MyMatrix.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/basiclearn/MyMatrixView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/basiclearn/HandDrawActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/basiclearn/SdcardView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/basiclearn/SdcardViewActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/basiclearn/PinBall.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/basiclearn/PinBallActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/basiclearn/Polygon.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/basiclearn/PolygonActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/basiclearn/TabHostTest.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/basiclearn/TabHostTestActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/basiclearn/Texture3D.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/basiclearn/Texture3DActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/ndklibrary/src/main/res/layout/activity_main1.xml" />
+        <option value="$PROJECT_DIR$/ndklibrary/src/main/java/com/example/ndklibrary/Main1Activity.java" />
+        <option value="$PROJECT_DIR$/ndklibrary/src/main/cpp/bitmap_utils.cpp" />
+        <option value="$PROJECT_DIR$/ndklibrary/src/main/cpp/native-lib.cpp" />
+        <option value="$PROJECT_DIR$/ndklibrary/build.gradle" />
+        <option value="$PROJECT_DIR$/ndklibrary/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/argismaplibrary/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/arcgismaplibrary/src/main/java/com/example/argismaplibrary/ScrollingActivity.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/ndklibrary/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/yishutansuo/src/main/java/com/example/mylibrary/SecondActivity.kt" />
+        <option value="$PROJECT_DIR$/yishutansuo/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/yishutansuo/build.gradle" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="93" />
+    <option name="y" value="21" />
+    <option name="width" value="1494" />
+    <option name="height" value="996" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="BasicLearn" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="E:\Code\BasicLearn" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BasicLearn" type="58d84e3e:PackageViewProjectNode" />
+              <item name="ndklibrary" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BasicLearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicLearn" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DEBUGGABLE_DEVICE" value="huawei-cmr_al09-192.168.137.88:5555" />
+    <property name="DEBUGGABLE_PROCESS" value="com.example.basiclearn" />
+    <property name="DEBUGGER_ID" value="Auto" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="192.168.226.101:5555" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2019-09-06T06:56:35.161Z" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="D:/Android/Sdk" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ndklibrary/src/main/cpp" />
+    <property name="not.eligible.for.single.variant.sync" value="true" />
+    <property name="project.structure.last.edited" value="Build Variants" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Code\BasicLearn\ndklibrary" />
+      <recent name="E:\Code\BasicLearn\ndklibrary\src\main\cpp" />
+      <recent name="E:\Code\BasicLearn\ndklibrary\libs" />
+      <recent name="E:\Code\BasicLearn\ndklibrary\src\main\jniLibs" />
+      <recent name="E:\Code\BasicLearn\ndklibrary\src\main" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.basiclearn" />
+    </key>
+    <key name="android.template.packageName">
+      <recent name="com.example.mylibrary" />
+      <recent name="com.example.argismaplibrary" />
+      <recent name="com.example.ndklibrary" />
+      <recent name="com.example.apknameplugin" />
+      <recent name="com.example.basiclearn.chapter10" />
+    </key>
+    <key name="android.template.parentActivityClass">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Code\BasicLearn\ndklibrary\src\main\cpp" />
+      <recent name="E:\Code\BasicLearn\ndklibrary\libs" />
+      <recent name="E:\Code\BasicLearn\ndklibrary\jniLibs" />
+      <recent name="E:\Code\BasicLearn\ndklibrary\src\main\res\drawable" />
+      <recent name="E:\Code\BasicLearn\app\src\main\res\drawable" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="?" />
+      <command value="./gradlew" />
+      <command value="gradle" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicLearn" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.BasicLearn" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f94e416-d99f-4fa7-b868-ee85ee2726e6" name="Default Changelist" comment="" />
+      <created>1567561564101</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567561564101</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
+    <layout>
+      <window_info id="Structure" order="0" sideWeight="0.5018587" side_tool="true" weight="0.30028737" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" weight="0.32902297" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Resources Explorer" order="6" weight="0.32916147" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.49814126" visible="true" weight="0.24333064" />
+      <window_info id="Captures" order="8" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Logcat" order="0" sideWeight="0.4978166" weight="0.5641026" />
+      <window_info anchor="bottom" id="TODO" order="1" weight="0.32783884" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.55128205" />
+      <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.4995958" weight="0.26739928" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5004042" side_tool="true" weight="0.26739928" />
+      <window_info anchor="bottom" id="Build" order="6" sideWeight="0.49812266" weight="0.3791209" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.32783884" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" weight="0.32783884" />
+      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.4992722" weight="0.3864469" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32897195" />
+      <window_info anchor="bottom" id="Flutter Performance" order="11" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Gradle" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Preview" order="3" weight="0.22473727" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Device File Explorer" order="5" side_tool="true" weight="0.2821342" />
+      <window_info anchor="right" id="Assistant" order="6" weight="0.32916147" />
+      <window_info anchor="right" id="Flutter Inspector" order="7" />
+      <window_info anchor="right" id="Flutter Outline" order="8" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/basiclearn/chapter4/ExpandableListActivityTest.java</url>
+          <line>106</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/basiclearn/Texture3DActivity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/basiclearn/MyView.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/basiclearn/MyRender3.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/basiclearn/MyRender2.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/basiclearn/MyRender.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/basiclearn/MyMatrixView.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/basiclearn/MyAnimation.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/basiclearn/MoveBackActivity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/basiclearn/MainActivity03.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/basiclearn/MainActivity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/basiclearn/HandDrawActivity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/basiclearn/DateChooseActivity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/basiclearn/CirclePgBarView.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/basiclearn/DrawView.java" />
+    <entry file="file://$PROJECT_DIR$/ndklibrary/src/main/cpp/include/opencv2/ml/ml.hpp" />
+    <entry file="file://$PROJECT_DIR$/ndklibrary/consumer-rules.pro" />
+    <entry file="file://$PROJECT_DIR$/ndklibrary/src/main/res/layout/activity_main1.xml" />
+    <entry file="file://$PROJECT_DIR$/ndklibrary/src/main/cpp/bitmap_utils.h" />
+    <entry file="file://$PROJECT_DIR$/ndklibrary/src/main/cpp/Facer.h" />
+    <entry file="file://D:/Android/Sdk/sources/android-29/android/widget/ImageView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="749" column="16" selection-start-line="749" selection-start-column="16" selection-end-line="749" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ndklibrary/build.gradle" />
+    <entry file="file://$PROJECT_DIR$/gradle.properties" />
+    <entry file="file://$PROJECT_DIR$/ndklibrary/CMakeLists.txt" />
+    <entry file="file://$PROJECT_DIR$/ndklibrary/src/main/cpp/bitmap_utils.cpp" />
+    <entry file="file://$PROJECT_DIR$/arcgismaplibrary/src/main/res/layout/content_scrolling.xml" />
+    <entry file="file://$PROJECT_DIR$/arcgismaplibrary/src/main/res/menu/menu_scrolling.xml" />
+    <entry file="file://$PROJECT_DIR$/arcgismaplibrary/src/main/res/layout/activity_scrolling.xml" />
+    <entry file="file://$PROJECT_DIR$/arcgismaplibrary/src/main/AndroidManifest.xml" />
+    <entry file="file://$PROJECT_DIR$/arcgismaplibrary/src/main/java/com/example/argismaplibrary/ScrollingActivity.java" />
+    <entry file="file://$PROJECT_DIR$/arcgismaplibrary/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/arcgismaplibrary/build.gradle" />
+    <entry file="file://$PROJECT_DIR$/ndklibrary/src/main/cpp/native-lib.cpp" />
+    <entry file="file://$PROJECT_DIR$/ndklibrary/src/main/cpp/Facer.cpp" />
+    <entry file="file://$PROJECT_DIR$/arouterlibrary/build.gradle" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+    <entry file="file://$PROJECT_DIR$/argismaplibrary/argismaplibrary.iml" />
+    <entry file="file://$PROJECT_DIR$/arouterlibrary/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle" />
+    <entry file="file://$PROJECT_DIR$/ndklibrary/src/main/java/com/example/ndklibrary/Main1Activity.java" />
+    <entry file="file://$PROJECT_DIR$/app/build.gradle" />
+    <entry file="file://$PROJECT_DIR$/ndklibrary/src/main/AndroidManifest.xml" />
+    <entry file="file://$PROJECT_DIR$/yishutansuo/src/main/res/layout/activity_frist.xml" />
+    <entry file="file://$PROJECT_DIR$/yishutansuo/src/main/res/layout/activity_second.xml" />
+    <entry file="file://$PROJECT_DIR$/build.gradle" />
+    <entry file="file://$PROJECT_DIR$/yishutansuo/build.gradle" />
+    <entry file="file://$PROJECT_DIR$/yishutansuo/src/main/res/layout/activity_thrid.xml" />
+    <entry file="file://$PROJECT_DIR$/yishutansuo/src/main/AndroidManifest.xml" />
+    <entry file="file://$PROJECT_DIR$/yishutansuo/src/main/java/com/example/mylibrary/FristActivity.kt" />
+    <entry file="file://$PROJECT_DIR$/yishutansuo/src/main/java/com/example/mylibrary/SecondActivity.kt" />
+    <entry file="file://$PROJECT_DIR$/yishutansuo/src/main/java/com/example/mylibrary/ThridActivity.kt" />
+  </component>
+</project>

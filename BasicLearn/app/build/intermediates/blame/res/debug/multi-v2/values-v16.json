@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\some\\some\\BasicLearn\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\WisdomZhang\\.gradle\\wrapper\\dists\\gradle-5.1.1-all\\97z1ksx6lirer3kbvdnh7jtjg\\gradle-5.1.1\\caches\\transforms-2\\files-2.1\\b1ae7b4dafca81908ceb955c362ca6c6\\core-1.1.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\WisdomZhang\\.gradle\\wrapper\\dists\\gradle-5.1.1-all\\97z1ksx6lirer3kbvdnh7jtjg\\gradle-5.1.1\\caches\\transforms-2\\files-2.1\\eab4ea05f982fecf596b13322e63067c\\appcompat-1.1.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        }
+    ]
+}

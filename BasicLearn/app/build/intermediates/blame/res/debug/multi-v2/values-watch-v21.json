@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\some\\some\\BasicLearn\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v21\\values-watch-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\WisdomZhang\\.gradle\\wrapper\\dists\\gradle-5.1.1-all\\97z1ksx6lirer3kbvdnh7jtjg\\gradle-5.1.1\\caches\\transforms-2\\files-2.1\\eab4ea05f982fecf596b13322e63067c\\appcompat-1.1.0\\res\\values-watch-v21\\values-watch-v21.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,271,499",
+                        "endLines": "5,9,13",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "266,494,724"
+                    }
+                }
+            ]
+        }
+    ]
+}

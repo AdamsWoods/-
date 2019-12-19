@@ -1,0 +1,71 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "E:\\some\\some\\BasicLearn",
+      "sdkFolder": "D:\\Android\\Sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "E:\\some\\some\\BasicLearn\\ndklibrary\\build\\intermediates",
+      "gradleModulePathName": ":ndklibrary",
+      "moduleRootFolder": "E:\\some\\some\\BasicLearn\\ndklibrary",
+      "makeFile": "E:\\some\\some\\BasicLearn\\ndklibrary\\CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "E:\\some\\some\\BasicLearn\\.cxx",
+      "cxxFolder": "E:\\some\\some\\BasicLearn\\ndklibrary\\.cxx",
+      "ndkFolder": "D:\\Android\\Sdk\\ndk\\20.1.5948944",
+      "ndkVersion": "20.1.5948944",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [
+      "-DANDROID_STL\u003dc++_shared"
+    ],
+    "cFlagList": [],
+    "cppFlagsList": [
+      ""
+    ],
+    "variantName": "release",
+    "soFolder": "E:\\some\\some\\BasicLearn\\ndklibrary\\build\\intermediates\\cmake\\release\\lib",
+    "objFolder": "E:\\some\\some\\BasicLearn\\ndklibrary\\build\\intermediates\\cmake\\release\\obj",
+    "jsonFolder": "E:\\some\\some\\BasicLearn\\ndklibrary\\.cxx\\cmake\\release",
+    "gradleBuildOutputFolder": "E:\\some\\some\\BasicLearn\\ndklibrary\\.cxx\\cxx\\release",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARMEABI_V7A",
+  "abiPlatformVersion": 16,
+  "cxxBuildFolder": "E:\\some\\some\\BasicLearn\\ndklibrary\\.cxx\\cmake\\release\\armeabi-v7a",
+  "jsonFile": "E:\\some\\some\\BasicLearn\\ndklibrary\\.cxx\\cmake\\release\\armeabi-v7a\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "E:\\some\\some\\BasicLearn\\ndklibrary\\.cxx\\cxx\\release\\armeabi-v7a",
+  "objFolder": "E:\\some\\some\\BasicLearn\\ndklibrary\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a",
+  "buildCommandFile": "E:\\some\\some\\BasicLearn\\ndklibrary\\.cxx\\cmake\\release\\armeabi-v7a\\build_command.txt",
+  "buildOutputFile": "E:\\some\\some\\BasicLearn\\ndklibrary\\.cxx\\cmake\\release\\armeabi-v7a\\build_output.txt",
+  "modelOutputFile": "E:\\some\\some\\BasicLearn\\ndklibrary\\.cxx\\cmake\\release\\armeabi-v7a\\build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "E:\\some\\some\\BasicLearn\\ndklibrary\\.cxx\\cxx\\release\\armeabi-v7a\\CMakeLists.txt",
+    "toolchainWrapperFile": "E:\\some\\some\\BasicLearn\\ndklibrary\\.cxx\\cxx\\release\\armeabi-v7a\\android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "E:\\some\\some\\BasicLearn\\ndklibrary\\.cxx\\cxx\\release\\armeabi-v7a\\build_generation_state.json",
+    "cacheKeyFile": "E:\\some\\some\\BasicLearn\\ndklibrary\\.cxx\\cxx\\release\\armeabi-v7a\\compiler_cache_key.json",
+    "compilerCacheUseFile": "E:\\some\\some\\BasicLearn\\ndklibrary\\.cxx\\cxx\\release\\armeabi-v7a\\compiler_cache_use.json",
+    "compilerCacheWriteFile": "E:\\some\\some\\BasicLearn\\ndklibrary\\.cxx\\cxx\\release\\armeabi-v7a\\compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "E:\\some\\some\\BasicLearn\\ndklibrary\\.cxx\\cxx\\release\\armeabi-v7a\\compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "E:\\some\\some\\BasicLearn\\ndklibrary\\.cxx\\cmake\\release\\armeabi-v7a\\json_generation_record.json",
+  "compileCommandsJsonFile": "E:\\some\\some\\BasicLearn\\ndklibrary\\.cxx\\cmake\\release\\armeabi-v7a\\compile_commands.json"
+}
