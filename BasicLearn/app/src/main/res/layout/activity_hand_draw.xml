@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HandDrawActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="next" />
+
+        <Button
+            android:id="@+id/move"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="move" />
+
+        <Button
+            android:id="@+id/shader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="shader" />
+
+        <Button
+            android:id="@+id/sin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sin" />
+
+        <Button
+            android:id="@+id/cos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cos" />
+
+        <Button
+            android:id="@+id/in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IN" />
+
+        <Button
+            android:id="@+id/out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OUT" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/sdcard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sdcard" />
+
+        <Button
+            android:id="@+id/sql"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sql" />
+
+        <Button
+            android:id="@+id/gesture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="gesture" />
+
+        <Button
+            android:id="@+id/flipper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="gestureflipper" />
+
+        <Button
+            android:id="@+id/gesture_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="add_gesture" />
+
+        <Button
+            android:id="@+id/read_gesture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="read_gesture" />
+
+        <Button
+            android:id="@+id/dictResolver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dictresolver" />
+
+        <Button
+            android:id="@+id/service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="service" />
+
+    </LinearLayout>
+
+    <SurfaceView
+        android:id="@+id/show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.example.basiclearn.DrawView
+        android:id="@+id/draw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

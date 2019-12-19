@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/focuse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@drawable/my_image"
+        android:hint="nihao"/>
+
+    <EditText
+        android:id="@+id/focuse01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@drawable/my_image"
+        android:hint="nihaosss"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/layout_logo"/>
+
+    <ImageView
+        android:id="@+id/image1"
+        android:src="@drawable/clip_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/image2"
+        android:src="@drawable/avenda2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/shape1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_shape_1"
+        android:hint="nihaosss"
+        android:text="shape1" />
+
+    <EditText
+        android:id="@+id/shape2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_shape_2"
+        android:hint="nihaosss"
+        android:text="shpape2"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/shape3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_shape_3"
+        android:hint="nihaosss"
+        android:text="shape2"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/opengl1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="opengl1"/>
+        <Button
+            android:id="@+id/opengl2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="opengl2"/>
+        <Button
+            android:id="@+id/opengl3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="opengl3"/>
+
+        <Button
+            android:id="@+id/to_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"/>
+    </LinearLayout>
+
+
+    <com.example.basiclearn.MyView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

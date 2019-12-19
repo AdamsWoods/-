@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/red"
+            android:title="上下问菜单red"
+            android:alphabeticShortcut="r"/>
+        <item android:id="@+id/blue"
+            android:title="上下问菜单blue"
+            android:alphabeticShortcut="b"/>
+        <item android:id="@+id/green"
+            android:title="上下问菜单green"
+            android:alphabeticShortcut="g"/>
+    </group>
+</menu>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="books">
+        <item>疯狂1</item>
+        <item>疯狂2</item>
+        <item>疯狂3</item>
+        <item>疯狂4</item>
+    </array>
+</resources>
