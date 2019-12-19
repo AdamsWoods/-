@@ -1,2 +1,0 @@
-include ':app', ':ndklibrary', ':yishutansuo', ':navigate', ':lauchmodule'
-rootProject.name='BasicLearn'
