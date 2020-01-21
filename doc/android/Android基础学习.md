@@ -730,7 +730,23 @@ androidTestImplementation "android.arch.navigation:navigation-testing:$nav_versi
 
 6.将nav_gragh与activity相连接起来，就可完成fragment的路由。
 
+#### 27、时间的转换
 
+#### 28、EditText取消焦点
+
+```xml
+android:focusable="true"
+android:focusableInTouchMode="true"
+```
+
+#### 29、sqlit需要转义
+
+这些字符有 **| , + , \* , ^ , $ , / , | , [ , ] , ( , ) , - , . , \**等, 因它们是正则表达式中的一部分, 所以如果想用该字符本身, 这些字符需要进行转义才能表示它本身；
+
+```
+String[] b = str.split("\\|");  *//注意这里用两个 \\，而不是一个\*  
+System.out.println("处理结果: "+b[0]+","+b[1]);   *//输出的是: 处理结果: 5678,XYZ* 
+```
 
 
 
