@@ -1,7 +1,6 @@
-# some
+# Something 
 something, something and something  
+
 一些杂七杂八的东西 ，不知道在干些什么玩意儿。
 
-## 功能
-上班和宿舍，两个地方需要同步一些文件。使用此仓库来解决此问题。
-
+也可能作为一个共享的仓库，在任何有网络的地方都可以使用，接着做同一件事情。而这件事情，就不知道是些啥了。所以，叫做some(some record, some doc and so on)。
