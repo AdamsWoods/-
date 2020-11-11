@@ -1,2 +1,0 @@
-include ':app', ':mvp_sample_architecture'
-rootProject.name='MVP_01'
